@@ -1,10 +1,21 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/testimg1.png'
 import HeaderSocial from './HeaderSocials'
+import Lottie from 'react-lottie';
+import animationData from '../../assets/hologram.json';
 
 const Header = () => {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <header>
       <div className="container header__container">
@@ -14,8 +25,8 @@ const Header = () => {
         <CTA />
         <HeaderSocial />
 
-        <div className="me">
-          <img src={ME} alt='me'/>
+        <div className="header_lottie">
+          <Lottie options={defaultOptions} alt='header lottie'/>
         </div>
 
         <a href="contact" className='scroll_down'>Scroll Down</a>

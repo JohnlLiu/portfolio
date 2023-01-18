@@ -39,12 +39,12 @@ header {
 }
 
 /* ================== Header Image ================== */
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+.header_lottie {
+    /*background: linear-gradient(var(--color-primary), transparent);*/
+    width: 30rem;
+    height: 50rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 15rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
