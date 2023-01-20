@@ -3,7 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocials'
 import Lottie from 'react-lottie';
-import animationData from '../../assets/hologram.json';
+import animationData from '../../assets/avatar.json';
 
 const Header = () => {
 

@@ -3,8 +3,8 @@ import './about.css'
 import Lottie from 'react-lottie';
 import ME from '../../assets/coding.json'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {HiOutlineChip} from 'react-icons/hi'
+import {RiPlantLine} from 'react-icons/ri'
 
 const about = () => {
 
@@ -34,20 +34,20 @@ const about = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/> 
-              <h5>Experience</h5>
-              <small>Masters and 2 Years Internship</small>
+              <h5>What I Do</h5>
+              <small>Software Engineering with a focus in Machine Learning</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/> 
-              <h5>Something</h5>
-              <small>Something text placeholder</small>
+              <HiOutlineChip className='about__icon'/> 
+              <h5>My Interests</h5>
+              <small>All things tech and automation</small>
             </article>
 
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/> 
-              <h5>Projects</h5>
-              <small>Projects text placeholder</small>
+              <RiPlantLine className='about__icon'/> 
+              <h5>Things I Enjoy</h5>
+              <small>Food, playing sports, video games, music, and sleep</small>
             </article>
           </div>
 
