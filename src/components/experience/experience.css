@@ -1,0 +1,103 @@
+.container.experience__container{
+    width: 45%;
+}
+
+.experience__container {
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    gap: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__container:hover {
+    border-color: var(--color-primary--variant);
+    background: transparent;
+}
+
+.experience__tabs {
+    display: block;
+    font-size: 12px;
+    gap: 1.5rem;
+    cursor: pointer;
+    margin: 1rem 1rem 1rem;
+    flex-shrink: 0;
+}
+
+.tabs {
+    color: var(--color-light);
+    transition: var(--transition);
+    margin-bottom: 1rem;
+}
+
+.tabs:hover {
+    color: var(--color-primary);
+}
+
+
+.active-tabs {
+    border-left: 2px solid var(--color-primary);
+    transition: var(--transition);
+    color: var(--color-primary);
+}
+
+.content {
+    display: none;
+    transition: var(--transition);
+}
+
+.active-content {
+    display: grid;
+    transition: var(--transition);
+}
+
+.active-content h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0rem;
+}
+
+.active-content h3 {
+    display: list-item;
+    margin-bottom: 1em;
+    font-size: 13px;
+    color: var(--color-light);
+}
+
+.experience__bullet {
+    display: flex;
+    gap: 3px;
+}
+
+.bullet {
+    font-size: 15px;
+    flex-shrink: 0;
+    color: var(--color-primary);
+    margin-top: 3px;
+}
+
+.active-content h4 {
+    font-size: 14px;
+    color: rgb(189, 189, 183);
+    margin-bottom: 2rem;
+}
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+
+@media screen and (max-width: 1024px) {
+    .container.experience__container {
+        width: 90%;
+    }
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 600px) {
+    .container.experience__container {
+        width: 90%;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}

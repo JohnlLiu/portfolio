@@ -1,0 +1,27 @@
+.contact__main {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__content {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.me__lottie {
+    flex: 1 1 0;
+}
+
+.contact__content p {
+    margin-top: 4rem;
+    vertical-align: top;
+    flex: 1 1 40%;
+    margin-bottom: 1rem;
+}
+
+.button__container {
+    flex: 1 1 60%;
+}
+

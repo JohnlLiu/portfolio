@@ -52,10 +52,11 @@ const about = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus quas quod at laborum perferendis eum nulla soluta quae, odit amet odio, reiciendis ab, dolore quidem quis veritatis? Sint, aperiam.
+            Hello! Welcome to my portfolio where you can find a showcase of the various projects and experiences I've done.
+            I am an aspiring software engineer with a keen interest in the world of machine learning and artificial intelligence.
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <a href='#contact' className='btn btn-primary'>Know More</a>
         </div>
 
       </div>
