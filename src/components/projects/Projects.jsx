@@ -1,10 +1,5 @@
 import React from 'react'
 import './projects.css'
-import img1 from '../../assets/sample_project_img.jpg'
-import img2 from '../../assets/sample_img2.jpg'
-import img3 from '../../assets/sample_project_img.jpg'
-import img4 from '../../assets/sample_project_img.jpg'
-import img5 from '../../assets/sample_project_img.jpg'
 import {FiFolder} from 'react-icons/fi'
 import {FiGithub} from 'react-icons/fi'
 import {RxOpenInNewWindow} from 'react-icons/rx'
@@ -22,8 +17,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='http://driverless.mit.edu/mitpittrw' target="_blank"><BsGlobe2/></a>
-                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='http://driverless.mit.edu/mitpittrw' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
+                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Betty {'(MIT-PITT-RW)'}</h3>
@@ -38,8 +33,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com/JohnlLiu/Slime-Simulation' target="_blank"><FiGithub/></a>
-                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='https://github.com/JohnlLiu/Slime-Simulation' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
+                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Slime Simulation</h3>
@@ -55,8 +50,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com/JohnlLiu/Projects' target="_blank"><FiGithub/></a>
-                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='https://github.com/JohnlLiu/Projects' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
+                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Sentiment Analysis on Movie Reviews</h3>
@@ -71,7 +66,7 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Aerial Manipulator</h3>
@@ -86,8 +81,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com/JohnlLiu/CNC' target="_blank"><FiGithub/></a>
-                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='https://github.com/JohnlLiu/CNC' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
+                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>CNC Plotter</h3>
