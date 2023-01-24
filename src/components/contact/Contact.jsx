@@ -22,16 +22,15 @@ const Contact = () => {
 
       <div className='container contact__container'>
 
-        
-
         <div className='contact__main'>
-          <div className="me__lottie">
+          <div className="coffee__lottie">
             <Lottie options={defaultOptions} alt='coffee'/>
           </div>
           <div className='contact__content'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem fugit est quam praesentium quas quia impedit, nemo cum asperiores. Fuga magni veritatis voluptatem similique modi. Id consequatur delectus incidunt!.</p>
+            <p>Want to know more or have any questions? I am open to any inquires, so if there is something you want to
+              ask or just want to say hi, feel free to send me a message and we can have a chat over some virtual coffee. </p>
             <div className='button__container'>
-              <a href='mailto:something@gmail.com' className='btn btn-primary'>Send A Message</a>
+              <a href='mailto:liuyuhengs@gmail.com' className='btn btn-primary'>Send A Message</a>
             </div>
           </div>
         </div>

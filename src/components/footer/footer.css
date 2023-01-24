@@ -1,0 +1,10 @@
+.footer__note {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer__note2 {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: var(--color-light);
+}

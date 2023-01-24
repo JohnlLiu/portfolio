@@ -3,6 +3,7 @@
     justify-content: center;
 }
 
+
 .contact__content {
     display: flex;
     flex: 1 1 0;
@@ -10,18 +11,55 @@
     justify-content: space-around;
 }
 
-.me__lottie {
-    flex: 1 1 0;
-}
-
 .contact__content p {
-    margin-top: 4rem;
+    margin-top: 3rem;
+    color: var(--color-light);
     vertical-align: top;
-    flex: 1 1 40%;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .button__container {
-    flex: 1 1 60%;
+    flex: 1 1 0;
 }
+
+
+.coffee__lottie {
+    margin-left: 5rem;
+    margin-top: -3rem;
+    overflow: visible;
+}
+
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+
+@media screen and (max-width: 1024px) {
+    .contact__main {
+        display: flex;
+    }
+
+    .coffee__lottie {
+        margin-left: -3rem;
+        margin-top: -3rem;
+        overflow: visible;
+    }
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 600px) {
+    .contact__main {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .coffee__lottie {
+        margin-left: 0rem;
+        margin-top: -3rem;
+        margin-bottom: -5rem;
+        overflow: visible;
+    }
+}
+
+
+
 

@@ -8,6 +8,7 @@ import img5 from '../../assets/sample_project_img.jpg'
 import {FiFolder} from 'react-icons/fi'
 import {FiGithub} from 'react-icons/fi'
 import {RxOpenInNewWindow} from 'react-icons/rx'
+import {BsGlobe2} from 'react-icons/bs'
 
 const Projects = () => {
   return (
@@ -21,8 +22,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com' target="_blank"><FiGithub/></a>
-                <a href='https://dribbble.com/' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='http://driverless.mit.edu/mitpittrw' target="_blank"><BsGlobe2/></a>
+                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Betty {'(MIT-PITT-RW)'}</h3>
@@ -37,8 +38,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com' target="_blank"><FiGithub/></a>
-                <a href='https://dribbble.com/' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='https://github.com/JohnlLiu/Slime-Simulation' target="_blank"><FiGithub/></a>
+                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Slime Simulation</h3>
@@ -54,8 +55,8 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com' target="_blank"><FiGithub/></a>
-                <a href='https://dribbble.com/' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='https://github.com/JohnlLiu/Projects' target="_blank"><FiGithub/></a>
+                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Sentiment Analysis on Movie Reviews</h3>
@@ -70,8 +71,7 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com' target="_blank"><FiGithub/></a>
-                <a href='https://dribbble.com/' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Aerial Manipulator</h3>
@@ -86,16 +86,16 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com' target="_blank"><FiGithub/></a>
-                <a href='https://dribbble.com/' target="_blank"><RxOpenInNewWindow/></a>
+                <a href='https://github.com/JohnlLiu/CNC' target="_blank"><FiGithub/></a>
+                <a href='#projects' target="_blank"><RxOpenInNewWindow/></a>
               </div>
             </div>
-            <h3>Project Title</h3>
+            <h3>CNC Plotter</h3>
             <h5>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, quibusdam ut. 
-              Odit magnam nemo delectus omnis, est, iusto iure molestiae unde possimus neque quibusdam magni!
+              Fun printer project. Using 2 stepper motors to control timing belts arranged in Core-XY formation,
+              load in any image and watch the plotter move and draw the image on the platform. 
             </h5>
-            <h4>Library Library Library Library</h4>
+            <h4>Solidworks Arduino 3D-Printing GRBL</h4>
         </article>
 
         

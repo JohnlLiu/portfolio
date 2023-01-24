@@ -26,15 +26,37 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
+    position: fixed;
+    left: 5rem;
     bottom: 3rem;
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 6rem;
+    background: var(--color-primary);
+}
+
+.email {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    gap: 4rem;
+    right: 0rem;
+    bottom: 6rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 4rem;
+}
+
+.email::after {
+    content: '';
+    transform: rotate(90deg);
+    width: 1px;
+    height: 6rem;
     background: var(--color-primary);
 }
 
@@ -49,17 +71,6 @@ header {
     border-radius: 6rem 6rem 0 0;
     overflow: hidden;
     /*padding: 1.5rem 1.5rem 1.5rem 1.5rem;*/
-}
-
-/* ================== Scroll Down ================== */
-
-.scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
 }
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) =============== */

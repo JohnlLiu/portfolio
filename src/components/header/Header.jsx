@@ -29,7 +29,7 @@ const Header = () => {
           <Lottie options={defaultOptions} alt='header lottie'/>
         </div>
 
-        <a href="contact" className='scroll_down'>Scroll Down</a>
+        <a href='mailto:liuyuhengs@gmail.com' className='email'>liuyuhengs@gmail.com</a>
       </div>
     </header>
   )
