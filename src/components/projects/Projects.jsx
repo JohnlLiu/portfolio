@@ -23,8 +23,8 @@ const Projects = () => {
             </div>
             <h3>Betty {'(MIT-PITT-RW)'}</h3>
             <h5>
-              Get to know Betty, one of the worlds fastest autonmous racecars capabable of reaching speeds of 150mph+ and competed various
-              challenges hosted by the Indy Autonomous Challenged {'(IAC)'}
+              Get to know Betty, one of the worlds fastest autonmous racecars capabable of reaching speeds of 150mph+ and competed in various
+              challenges hosted by the Indy Autonomous Challenge {'(IAC)'}
             </h5>
             <h4>Plotly Pandas ROS SciPy</h4>
         </article>
