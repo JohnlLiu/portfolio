@@ -18,7 +18,7 @@ const Projects = () => {
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
                 <a href='http://driverless.mit.edu/mitpittrw' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
-                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+                <a href='https://medium.com/@j0hn.l/betty-autonomous-indy-race-car-1002f88faafb' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Betty {'(MIT-PITT-RW)'}</h3>
@@ -34,7 +34,7 @@ const Projects = () => {
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
                 <a href='https://github.com/JohnlLiu/Slime-Simulation' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
-                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+                <a href='https://medium.com/@j0hn.l/slime-simulation-f92c1ecfe3a7' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Slime Simulation</h3>
@@ -51,7 +51,7 @@ const Projects = () => {
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
                 <a href='https://github.com/JohnlLiu/Projects' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
-                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Sentiment Analysis on Movie Reviews</h3>
@@ -66,7 +66,7 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Aerial Manipulator</h3>
@@ -82,7 +82,7 @@ const Projects = () => {
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
                 <a href='https://github.com/JohnlLiu/CNC' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
-                <a href='#projects' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>CNC Plotter</h3>
