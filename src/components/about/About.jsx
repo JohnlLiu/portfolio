@@ -53,7 +53,9 @@ const about = () => {
 
           <p>
             Hello! Welcome to my portfolio where you can find a showcase of the various projects and experiences I've done.
-            I am an aspiring software engineer with a keen interest in the world of machine learning and artificial intelligence.
+            I am a software engineer who is passionate about using my technical skills and knowledge to create impactful solutions 
+            that can help solve real-world problems. I am always eager to learn about new technologies and stay updated with the latest advancements 
+            in the world of machine learning and artificial intelligence.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Know More</a>

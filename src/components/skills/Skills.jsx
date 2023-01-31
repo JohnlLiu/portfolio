@@ -5,7 +5,7 @@ import {TbNorthStar} from 'react-icons/tb'
 const Skills = () => {
   return (
     <section id='skills'>
-        <h5>Things That I Am Good At</h5>
+        <h5>What I'm Good At</h5>
         <h2>My Skills</h2>
 
         <div className='container skills__container'>

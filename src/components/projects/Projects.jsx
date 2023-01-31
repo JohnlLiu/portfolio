@@ -51,7 +51,7 @@ const Projects = () => {
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
                 <a href='https://github.com/JohnlLiu/Projects' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
-                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+                <a href='https://medium.com/@j0hn.l/sentiment-analysis-on-movie-reviews-26ade518ed7d' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
             <h3>Sentiment Analysis on Movie Reviews</h3>
@@ -59,7 +59,7 @@ const Projects = () => {
               Is this movie worth watching? This program is able to tell you. Using the IMDb movie review data set, a nerual network is 
               developed to perform sentinence analysis on various movie reviews to tell you if its a positive or negative review.
             </h5>
-            <h4>Pytorch Scikit-learn Pandas NumPy</h4>
+            <h4>Pytorch Tensorflow Pandas NumPy</h4>
         </article>
 
         <article className='projects__item'>
