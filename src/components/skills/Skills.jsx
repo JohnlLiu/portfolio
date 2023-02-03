@@ -56,11 +56,19 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
+                        <h4>Keras</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
                         <h4>Scikit-Learn</h4>
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
                         <h4>React</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
+                        <h4>AWS</h4>
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
