@@ -26,6 +26,10 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
+                        <h4>MATLAB</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
                         <h4>JavaScript</h4>
                     </article>
                     <article className='skills__details'>
@@ -102,11 +106,19 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
+                        <h4>Deep Learning</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
                         <h4>Predicitive Analysis & Modelling</h4>
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
                         <h4>Clustering and Classification</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
+                        <h4>NLP</h4>
                     </article>
                 </div>
             </article>

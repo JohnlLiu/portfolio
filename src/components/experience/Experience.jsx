@@ -34,17 +34,18 @@ const Experience = () => {
             <h4>July 2022 - Present</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Wrote and tested software for an autonomous racecar capable of reaching speeds of 150mph+ for the Indy Autonomous Challenge</h3>
+              <h3>Created an application to generate vehicle race lines allowing for safe attacking and defending maneuvers which enabled autonomous 
+                vehicle passing at 150mph+ during the Las Vegas Motor Speedway competition  </h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Generated vehicle pathing using cubic spline models allowing for safe attacking and defending maneuvers of the vehicle which enabled 
-                  autonomous vehicle passing at 150mph at the Las Vegas Motor Speedway competition</h3>
+              <h3>Race lines created using Python by calculating cubic spline representation of track waypoints and optimization by re-evaluating 
+                the polynomial derivate to return smoother splines and used Plotly to create an interactive plot UI for ease of use</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Optimized racing lines for shortest distance and minimum lap times taking in account of vehicle dynamics and environmental factors to 
-                  ensure ideal maneuvering around the racetrack</h3>
+              <h3>Developed collision checking and path cost functions scripts as part of a Model Predictive Path Integral (MPPI) controller 
+                using C++ resulting in better autonomous pathing decisions</h3>
             </div>
           </div>
 
