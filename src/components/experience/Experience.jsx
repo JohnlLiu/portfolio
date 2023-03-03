@@ -29,18 +29,19 @@ const Experience = () => {
 
         <div className='experience__contents'>
 
+          {/*MIT-PITT-RW*/}
           <div className={toggleState === 1 ? 'content active-content' : 'content'}>
             <h2>Software Engineer</h2>
             <h4>July 2022 - Present</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Created an application to generate vehicle race lines allowing for safe attacking and defending maneuvers which enabled autonomous 
-                vehicle passing at 150mph+ during the Las Vegas Motor Speedway competition  </h3>
+              <h3>Created an application to generate vehicle race lines for an autonomous racecar which enabled self driving attacking and 
+                defending maneuvers at 150mph+ during the Las Vegas Motor Speedway competition</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Race lines created using Python by calculating cubic spline representation of track waypoints and optimization by re-evaluating 
-                the polynomial derivate to return smoother splines and used Plotly to create an interactive plot UI for ease of use</h3>
+              <h3>Race lines created using Python by calculating cubic spline representation of track waypoints and further curvature 
+                optimization to return smoother lines allowing for higher vehicle speeds and used Plotly to create an interactive plot UI for ease of use</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
@@ -49,13 +50,18 @@ const Experience = () => {
             </div>
           </div>
 
+          {/*The Woodbridge Group*/}
           <div className={toggleState === 2 ? 'content active-content' : 'content'}>
             <h2>Mechanical Engineering</h2>
             <h4>Sep 2018 - Dec 2018</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Led the concept generation and prototype build of a pour head test system allowing for less downtime during routine inspections 
-                  resulting in significant cost savings {'(>$50,000 per hour of downtime)'} </h3>
+              <h3>Successfully led the conceptualization and construction of a pour head test system allowing for less downtime during routine 
+                inspections resulting in significant cost savings of more than $50,000 per hour of plant line downtime</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Refined and accelerated data management process using VBA to create an interactive spreadsheet used by company branches</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
@@ -63,6 +69,7 @@ const Experience = () => {
             </div>
           </div>
 
+          {/*Nytric Ltd.*/}
           <div className={toggleState === 3 ? 'content active-content' : 'content'}>
             <h2>Product Development Engineering</h2>
             <h4>Jan 2018 - Apr 2018</h4>
@@ -84,6 +91,7 @@ const Experience = () => {
             </div>
           </div>
 
+          {/*HubHead Corp.*/}
           <div className={toggleState === 4 ? 'content active-content' : 'content'}>
             <h2>Systems Engineering</h2>
             <h4>May 2017 - Aug 2017</h4>  
@@ -97,6 +105,7 @@ const Experience = () => {
             </div>
           </div>
 
+          {/*Tyco Security Products*/}
           <div className={toggleState === 5 ? 'content active-content' : 'content'}>
             <h2>Mechanical Designer</h2>
             <h4>Aug 2016 - Dec 2016</h4>  
@@ -110,6 +119,7 @@ const Experience = () => {
             </div>
           </div>
 
+          {/*Rheaume Engineering*/}
           <div className={toggleState === 6 ? 'content active-content' : 'content'}>
             <h2>Technical Support</h2>
             <h4>Feb 2016 - Apr 2016</h4>  

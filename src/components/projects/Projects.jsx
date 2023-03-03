@@ -37,7 +37,7 @@ const Projects = () => {
                 <a href='https://medium.com/@j0hn.l/slime-simulation-f92c1ecfe3a7' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
-            <h3>Slime Simulation</h3>
+            <h3>Slime Artificial Life Simulation</h3>
             <h5>
               Explore the unique world of slime. This project aims to explore and simulate on how a set of simple rules can lead to complex and organic
               behavior of a swarm of agents. Watch the visualuation and evolution of how thousands of agents assemble together to create unique transport

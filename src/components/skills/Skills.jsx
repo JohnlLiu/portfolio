@@ -90,7 +90,7 @@ const Skills = () => {
             </article>
             {/*END OF TOOLS PART*/}
             <article className='skills__item'>
-                <h3>Applications</h3>
+                <h3>Machine Learning</h3>
                 <div className='skills__content'>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
