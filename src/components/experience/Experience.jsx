@@ -35,8 +35,8 @@ const Experience = () => {
             <h4>July 2022 - Present</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Created an application to generate vehicle race lines for an autonomous racecar which enabled self driving attacking and 
-                defending maneuvers at 150mph+ during the Las Vegas Motor Speedway competition</h3>
+              <h3>Created an application to generate vehicle race lines for an autonomous racecar which enabled self driving attacking and defending
+                maneuvers at 150mph+ during the Indy Autonomous Challenge (IAC) competition</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
@@ -102,6 +102,10 @@ const Experience = () => {
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
               <h3>Consulted with various clients to find data management solutions and deliver  the most optimal management strategies</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Created scripts in VBA to automatically aggravate and organize client data to be used company asset management software</h3>
             </div>
           </div>
 
