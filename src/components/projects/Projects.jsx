@@ -33,6 +33,23 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
+                <a href='https://github.com/JohnlLiu/mini_GPT' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
+                <a href='https://medium.com/@j0hn.l/mlops-end-to-end-mini-gpt-77b66d601015' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+              </div>
+            </div>
+            <h3>MLOps End-to-End: Mini GPT</h3>
+            <h5>
+              Follow the entire CI/CI pipeline for an MLOps workflow. From getting the dataset, to creating the model, to deployment and automation, this project
+              aims to create a mini GPT model from scratch and train it using Shakespeare text. A web app is created using Streamlit for the model before its 
+              containerized and deployed to Google Cloud Platform where automatic development integration is also setup.
+            </h5>
+            <h4>PyTorch Streamlit Docker Kubernetes GCP</h4>
+        </article>
+
+        <article className='projects__item'>
+            <div className='projects__item-cta'>
+              <FiFolder className='projects__icon'/>
+              <div className='projects__links'>
                 <a href='https://github.com/JohnlLiu/Slime-Simulation' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
                 <a href='https://medium.com/@j0hn.l/slime-simulation-f92c1ecfe3a7' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
@@ -92,8 +109,6 @@ const Projects = () => {
             </h5>
             <h4>Solidworks Arduino 3D-Printing GRBL</h4>
         </article>
-
-        
 
       </div>
 
