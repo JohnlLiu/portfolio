@@ -38,9 +38,10 @@
 
 
 .active-tabs {
-    border-left: 2px solid var(--color-primary);
+    /*border-left: 2px solid var(--color-primary);*/
     transition: var(--transition);
     color: var(--color-primary);
+    font-weight: bold;
 }
 
 .content {

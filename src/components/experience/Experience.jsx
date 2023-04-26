@@ -20,11 +20,12 @@ const Experience = () => {
 
         <div className='experience__tabs'>
           <div className={toggleState === 1 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(1)}>MIT-PITT-RW</div>
-          <div className={toggleState === 2 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(2)}>The Woodbridge Group</div>
-          <div className={toggleState === 3 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(3)}>Nytric Ltd.</div>
-          <div className={toggleState === 4 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(4)}>HubHead</div>
-          <div className={toggleState === 5 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(5)}>Tyco Security Products</div>
-          <div className={toggleState === 6 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(6)}>Rheaume Engineering</div>
+          <div className={toggleState === 2 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(2)}>Wyheng Technologies Ltd.</div>
+          <div className={toggleState === 3 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(3)}>The Woodbridge Group</div>
+          <div className={toggleState === 4 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(4)}>Nytric Ltd.</div>
+          <div className={toggleState === 5 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(5)}>HubHead</div>
+          <div className={toggleState === 6 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(6)}>Tyco Security Products</div>
+          <div className={toggleState === 7 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(7)}>Rheaume Engineering</div>
         </div>
 
         <div className='experience__contents'>
@@ -50,8 +51,28 @@ const Experience = () => {
             </div>
           </div>
 
-          {/*The Woodbridge Group*/}
+          {/*Wyheng Technologies Ltd.*/}
           <div className={toggleState === 2 ? 'content active-content' : 'content'}>
+            <h2>Software Developer</h2>
+            <h4>Sep 2020 - Aug 2021</h4>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Developed scripts in Python to automate and streamline performance calculations of various oil and gas piping equipment 
+                allowing for preliminary sizing calculation work to be done significantly faster</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Used Pandas and openpyxl libraries to aggregate and sort oil and gas production data allowing for easier 
+                data analysis leading to increased workover operations productivity</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Modified flare stack and flare knockout drum sizing spreadsheets based on API 521 </h3>
+            </div>
+          </div>
+
+          {/*The Woodbridge Group*/}
+          <div className={toggleState === 3 ? 'content active-content' : 'content'}>
             <h2>Mechanical Engineering</h2>
             <h4>Sep 2018 - Dec 2018</h4>
             <div className='experience__bullet'>
@@ -70,7 +91,7 @@ const Experience = () => {
           </div>
 
           {/*Nytric Ltd.*/}
-          <div className={toggleState === 3 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 4 ? 'content active-content' : 'content'}>
             <h2>Product Development Engineering</h2>
             <h4>Jan 2018 - Apr 2018</h4>
             <div className='experience__bullet'>
@@ -92,7 +113,7 @@ const Experience = () => {
           </div>
 
           {/*HubHead Corp.*/}
-          <div className={toggleState === 4 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 5 ? 'content active-content' : 'content'}>
             <h2>Systems Engineering</h2>
             <h4>May 2017 - Aug 2017</h4>  
             <div className='experience__bullet'>
@@ -110,7 +131,7 @@ const Experience = () => {
           </div>
 
           {/*Tyco Security Products*/}
-          <div className={toggleState === 5 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 6 ? 'content active-content' : 'content'}>
             <h2>Mechanical Designer</h2>
             <h4>Aug 2016 - Dec 2016</h4>  
             <div className='experience__bullet'>
@@ -124,7 +145,7 @@ const Experience = () => {
           </div>
 
           {/*Rheaume Engineering*/}
-          <div className={toggleState === 6 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 7 ? 'content active-content' : 'content'}>
             <h2>Technical Support</h2>
             <h4>Feb 2016 - Apr 2016</h4>  
             <div className='experience__bullet'>
