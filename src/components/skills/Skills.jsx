@@ -76,6 +76,10 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
+                        <h4>GCP</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
                         <h4>NumPy</h4>
                     </article>
                     <article className='skills__details'>

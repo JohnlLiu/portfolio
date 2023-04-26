@@ -17,7 +17,7 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='http://driverless.mit.edu/mitpittrw' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
+                <a href='http://driverless.mit.edu/' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
                 <a href='https://medium.com/@j0hn.l/betty-autonomous-indy-race-car-1002f88faafb' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
             </div>
             <h3>MLOps End-to-End: Mini GPT</h3>
             <h5>
-              Follow the entire CI/CI pipeline for an MLOps workflow. From getting the dataset, to creating the model, to deployment and automation, this project
+              Follow the entire CI/CD pipeline for an MLOps workflow. From getting the dataset, to creating the model, to deployment and automation, this project
               aims to create a mini GPT model from scratch and train it using Shakespeare text. A web app is created using Streamlit for the model before its 
               containerized and deployed to Google Cloud Platform where automatic development integration is also setup.
             </h5>
