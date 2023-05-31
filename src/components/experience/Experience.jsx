@@ -37,7 +37,7 @@ const Experience = () => {
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
               <h3>Created an application to generate vehicle race lines for an autonomous racecar which enabled self driving attacking and defending
-                maneuvers at 150mph+ during the Indy Autonomous Challenge (IAC) competition</h3>
+                maneuvers at 150mph+ during various Indy Autonomous Challenge (IAC) competitions</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
@@ -64,6 +64,11 @@ const Experience = () => {
               <BiRightArrow className='bullet'/>
               <h3>Used Pandas and openpyxl libraries to aggregate and sort oil and gas production data allowing for easier 
                 data analysis leading to increased workover operations productivity</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3> Tested existing software for bugs and performance, fixing bugs and revamping code to increase performance speeds by up to an 
+                additional 20%</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
@@ -100,11 +105,11 @@ const Experience = () => {
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>3D CAD modelling of touchscreen enclosures for injection molding with focus on DFM and DFA</h3>
+              <h3>Used SolidWorks macros to automate some 3D CAD modelling allowing for quick revision design changes of touchscreen enclosures</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Developed a script to streamline company design procedures by automating product and CAD model revision changes</h3>
+              <h3>Developed a script to streamline company design procedures by automating product and CAD model revision change records</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
