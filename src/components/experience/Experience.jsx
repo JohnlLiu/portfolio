@@ -36,18 +36,18 @@ const Experience = () => {
             <h4>July 2022 - Present</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Created an application to generate vehicle race lines for an autonomous racecar which enabled self driving attacking and defending
-                maneuvers at 150mph+ during various Indy Autonomous Challenge (IAC) competitions</h3>
+              <h3>Created an application using Python to generate vehicle race lines and velocity profiles for an autonomous racecar which enabled 
+                self-driving attacking and defending maneuvers at 150mph+ for various Indy Autonomous Challenge (IAC) competitions</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Race lines created using Python by calculating cubic spline representation of track waypoints and further curvature 
-                optimization to return smoother lines allowing for higher vehicle speeds and used Plotly to create an interactive plot UI for ease of use</h3>
+              <h3>Designed data pipeline that allows for streamlined integration and use of large amounts of data for race line and velocity profile 
+                generation and used Plotly to create an interactive graph UI for ease of use and visualization</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Developed collision checking and path cost functions scripts as part of a Model Predictive Path Integral (MPPI) controller 
-                using C++ resulting in better autonomous pathing decisions</h3>
+              <h3>Developed collision checking and path cost functions scripts in C++ as part of a vehicle path prediction controller resulting in better 
+                autonomous pathing decisions</h3>
             </div>
           </div>
 
@@ -57,13 +57,13 @@ const Experience = () => {
             <h4>Sep 2020 - Aug 2021</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Developed scripts in Python to automate and streamline performance calculations of various oil and gas piping equipment 
-                allowing for preliminary sizing calculation work to be done significantly faster</h3>
+              <h3>Developed scripts in Python to automate and streamline performance calculations of various oil and gas piping 
+                equipment allowing for preliminary sizing calculation work to be done significantly faster</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Used Pandas and openpyxl libraries to aggregate and sort oil and gas production data allowing for easier 
-                data analysis leading to increased workover operations productivity</h3>
+              <h3>Used Pandas and openpyxl libraries to build a ETL pipeline of oil and gas production data resulting in more 
+                organized databases that allowed for easier data analysis and use, leading to increased work productivity</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
@@ -97,7 +97,7 @@ const Experience = () => {
 
           {/*Nytric Ltd.*/}
           <div className={toggleState === 4 ? 'content active-content' : 'content'}>
-            <h2>Product Development Engineering</h2>
+            <h2>Product Engineering</h2>
             <h4>Jan 2018 - Apr 2018</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
