@@ -13,7 +13,7 @@ const Projects = () => {
 
       <div className='container projects__container'>
 
-        <article className='projects__item'>
+      <article className='projects__item'>
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
@@ -27,6 +27,23 @@ const Projects = () => {
               challenges hosted by the Indy Autonomous Challenge {'(IAC)'}
             </h5>
             <h4>Plotly Pandas ROS SciPy</h4>
+        </article>
+
+        <article className='projects__item'>
+            <div className='projects__item-cta'>
+              <FiFolder className='projects__icon'/>
+              <div className='projects__links'>
+                <a href='https://github.com/JohnlLiu/Protein_prediction' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
+                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+              </div>
+            </div>
+            <h3>Protein Synthesis Predction</h3>
+            <h5>
+              Using the power of large language models {'(LLMs)'}, even the creation of proteins is possible. Using the ESMFold API, input your own 
+              string sequence to see what sort of protein structure it creates. Web app is deployed using Flask and the resulting PDB file {'(protein structure)'}
+              can also be downloaded for use.
+            </h5>
+            <h4>ESMFold Flask Docker PyTorch</h4>
         </article>
 
         <article className='projects__item'>

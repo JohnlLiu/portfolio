@@ -22,6 +22,10 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
+                        <h4>Java</h4>
+                    </article>
+                    <article className='skills__details'>
+                        <TbNorthStar className='skills__bullet'/>
                         <h4>SQL</h4>
                     </article>
                     <article className='skills__details'>
