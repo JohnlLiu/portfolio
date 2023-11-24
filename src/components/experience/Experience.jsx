@@ -33,7 +33,7 @@ const Experience = () => {
           {/*MIT-PITT-RW*/}
           <div className={toggleState === 1 ? 'content active-content' : 'content'}>
             <h2>Software Engineer</h2>
-            <h4>July 2022 - Present</h4>
+            <h4>Jul 2022 - Nov 2023</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
               <h3>Created an application using Python to generate vehicle race lines and velocity profiles for an autonomous racecar which enabled 

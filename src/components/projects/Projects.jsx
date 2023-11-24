@@ -33,7 +33,7 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
-                <a href='https://github.com/JohnlLiu/Protein_prediction' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
+                <a href='https://github.com/JohnlLiu/Protein_prediction' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
                 <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
             </div>

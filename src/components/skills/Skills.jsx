@@ -88,7 +88,7 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
-                        <h4>Docker</h4>
+                        <h4>MongoDB</h4>
                     </article>
                     <article className='skills__details'>
                         <TbNorthStar className='skills__bullet'/>
