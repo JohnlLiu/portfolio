@@ -13,7 +13,7 @@ const Projects = () => {
 
       <div className='container projects__container'>
 
-      <article className='projects__item'>
+        <article className='projects__item'>
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
@@ -27,6 +27,22 @@ const Projects = () => {
               challenges hosted by the Indy Autonomous Challenge {'(IAC)'}
             </h5>
             <h4>Plotly Pandas ROS SciPy</h4>
+        </article>
+
+        <article className='projects__item'>
+            <div className='projects__item-cta'>
+              <FiFolder className='projects__icon'/>
+              <div className='projects__links'>
+                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+              </div>
+            </div>
+            <h3>Receipt and Document Tracker</h3>
+            <h5>
+              Keep track of your receipts and finance documents. This application allows you to upload either an image of your receipt or a document, and using 
+              Optical Character Recognition {'(OCR)'}, it will automatically extract all the details for you! Everything is stored, secured, and accesible as application
+              utilizes MongoDB for its document database and PostgreSQL for user login.
+            </h5>
+            <h4>OpenCV Flask MongoDB PostgreSQL AWS</h4>
         </article>
 
         <article className='projects__item'>

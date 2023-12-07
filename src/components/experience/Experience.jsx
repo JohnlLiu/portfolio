@@ -33,20 +33,20 @@ const Experience = () => {
           {/*MIT-PITT-RW*/}
           <div className={toggleState === 1 ? 'content active-content' : 'content'}>
             <h2>Software Engineer</h2>
-            <h4>Jul 2022 - Nov 2023</h4>
+            <h4>Jul 2022 - Present</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Created an application using Python to generate vehicle race lines and velocity profiles for an autonomous racecar which enabled 
-                self-driving attacking and defending maneuvers at 150mph+ for various Indy Autonomous Challenge (IAC) competitions</h3>
+              <h3>Created a Python application to generate vehicle race lines and velocity profiles for an autonomous racecar enabling self-driving 
+                attacking and defending maneuvers at 150mph+ for various autonomous racing competitions</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Designed data pipeline that allows for streamlined integration and use of large amounts of data for race line and velocity profile 
-                generation and used Plotly to create an interactive graph UI for ease of use and visualization</h3>
+              <h3>Designed a streamlined data pipeline for seamless integration of large data, allowing efficient race line and velocity profile generation. 
+                Created an interactive graph UI using Plotly for enhanced data visualization and user-friendliness</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Developed collision checking and path cost functions scripts in C++ as part of a vehicle path prediction controller resulting in better 
+              <h3>Developed collision checking and path cost function scripts in C++ as part of a vehicle path prediction controller, resulting in improved 
                 autonomous pathing decisions</h3>
             </div>
           </div>
@@ -57,18 +57,18 @@ const Experience = () => {
             <h4>Sep 2020 - Aug 2021</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Developed scripts in Python to automate and streamline performance calculations of various oil and gas piping 
-                equipment allowing for preliminary sizing calculation work to be done significantly faster</h3>
+              <h3>Automated and streamlined performance calculations of various oil and gas piping equipment using Python. Achieved a 30% 
+                acceleration in preliminary sizing calculations</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3>Used Pandas and openpyxl libraries to build a ETL pipeline of oil and gas production data resulting in more 
-                organized databases that allowed for easier data analysis and use, leading to increased work productivity</h3>
+              <h3>Built an ETL pipeline using Python and Pandas for oil and gas production data, resulting in well-organized databases, facilitating 
+                smoother data analysis and utilization, thereby boosting overall work productivity</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
-              <h3> Tested existing software for bugs and performance, fixing bugs and revamping code to increase performance speeds by up to an 
-                additional 20%</h3>
+              <h3>Conducted thorough software testing to identify and address bugs while refactoring code for performance, achieving a 20% increase in 
+                software speed</h3>
             </div>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
