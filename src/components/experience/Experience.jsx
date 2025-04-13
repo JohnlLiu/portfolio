@@ -19,21 +19,48 @@ const Experience = () => {
       <div className='container experience__container'>
 
         <div className='experience__tabs'>
-          <div className={toggleState === 1 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(1)}>MIT-PITT-RW</div>
-          <div className={toggleState === 2 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(2)}>Wyheng Technologies Ltd.</div>
-          <div className={toggleState === 3 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(3)}>The Woodbridge Group</div>
-          <div className={toggleState === 4 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(4)}>Nytric Ltd.</div>
-          <div className={toggleState === 5 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(5)}>HubHead</div>
-          <div className={toggleState === 6 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(6)}>Tyco Security Products</div>
-          <div className={toggleState === 7 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(7)}>Rheaume Engineering</div>
+          <div className={toggleState === 1 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(1)}>Boeing</div>
+          <div className={toggleState === 2 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(2)}>MIT-PITT-RW</div>
+          <div className={toggleState === 3 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(3)}>Wyheng Technologies Ltd.</div>
+          <div className={toggleState === 4 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(4)}>The Woodbridge Group</div>
+          <div className={toggleState === 5 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(5)}>Nytric Ltd.</div>
+          <div className={toggleState === 6 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(6)}>HubHead</div>
+          <div className={toggleState === 7 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(7)}>Tyco Security Products</div>
+          <div className={toggleState === 8 ? 'tabs active-tabs' : 'tabs'} onClick={() => toggleTab(8)}>Rheaume Engineering</div>
         </div>
 
         <div className='experience__contents'>
 
-          {/*MIT-PITT-RW*/}
+          {/*Boeing*/}
           <div className={toggleState === 1 ? 'content active-content' : 'content'}>
             <h2>Software Engineer</h2>
-            <h4>Jul 2022 - Present</h4>
+            <h4>Feb 2024 - Present</h4>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Developed and maintained a client-tailored scheduling and logistics optimization application using Python and proprietary languages 
+              through continuous integration and delivery (CI/CD)</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Wrote and delivered scalable, well-tested code with a focus on maintainability and performance, leveraging best practices in version 
+              control and automated testing using, PyTest, Gherkin, and Git</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Built a Retrieval-Augmented Generation (RAG) LLM system using LangChain and Hugging Face models to improve search and 
+              retrieval across internal proprietary knowledge bases</h3>
+            </div>
+            <div className='experience__bullet'>
+              <BiRightArrow className='bullet'/>
+              <h3>Acted as a key point of contact for clients, delivering fast, effective solutions while fostering strong relationships through clear 
+              communication and collaborative problem-solving by translating technical concepts into business value</h3>
+            </div>
+          </div>
+
+          {/*MIT-PITT-RW*/}
+          <div className={toggleState === 2 ? 'content active-content' : 'content'}>
+            <h2>Software Engineer</h2>
+            <h4>Jul 2022 - Nov 2023</h4>
             <div className='experience__bullet'>
               <BiRightArrow className='bullet'/>
               <h3>Created a Python application to generate vehicle race lines and velocity profiles for an autonomous racecar enabling self-driving 
@@ -52,7 +79,7 @@ const Experience = () => {
           </div>
 
           {/*Wyheng Technologies Ltd.*/}
-          <div className={toggleState === 2 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 3 ? 'content active-content' : 'content'}>
             <h2>Software Developer</h2>
             <h4>Sep 2020 - Aug 2021</h4>
             <div className='experience__bullet'>
@@ -77,7 +104,7 @@ const Experience = () => {
           </div>
 
           {/*The Woodbridge Group*/}
-          <div className={toggleState === 3 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 4 ? 'content active-content' : 'content'}>
             <h2>Mechanical Engineering</h2>
             <h4>Sep 2018 - Dec 2018</h4>
             <div className='experience__bullet'>
@@ -96,7 +123,7 @@ const Experience = () => {
           </div>
 
           {/*Nytric Ltd.*/}
-          <div className={toggleState === 4 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 5 ? 'content active-content' : 'content'}>
             <h2>Product Engineering</h2>
             <h4>Jan 2018 - Apr 2018</h4>
             <div className='experience__bullet'>
@@ -118,7 +145,7 @@ const Experience = () => {
           </div>
 
           {/*HubHead Corp.*/}
-          <div className={toggleState === 5 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 6 ? 'content active-content' : 'content'}>
             <h2>Systems Engineering</h2>
             <h4>May 2017 - Aug 2017</h4>  
             <div className='experience__bullet'>
@@ -136,7 +163,7 @@ const Experience = () => {
           </div>
 
           {/*Tyco Security Products*/}
-          <div className={toggleState === 6 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 7 ? 'content active-content' : 'content'}>
             <h2>Mechanical Designer</h2>
             <h4>Aug 2016 - Dec 2016</h4>  
             <div className='experience__bullet'>
@@ -150,7 +177,7 @@ const Experience = () => {
           </div>
 
           {/*Rheaume Engineering*/}
-          <div className={toggleState === 7 ? 'content active-content' : 'content'}>
+          <div className={toggleState === 8 ? 'content active-content' : 'content'}>
             <h2>Technical Support</h2>
             <h4>Feb 2016 - Apr 2016</h4>  
             <div className='experience__bullet'>
