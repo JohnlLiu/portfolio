@@ -17,6 +17,23 @@ const Projects = () => {
             <div className='projects__item-cta'>
               <FiFolder className='projects__icon'/>
               <div className='projects__links'>
+                <a href='https://github.com/JohnlLiu/agentic_rag' target="_blank" rel="noopener noreferrer"><FiGithub/></a>
+                <a href='https://medium.com/@j0hn.l' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
+              </div>
+            </div>
+            <h3>Agentic RAG</h3>
+            <h5>
+              Agentic RAG application with a Next.js frontend allowing for users to upload documents and have AI agents
+              answer questions based on the provided documents or simply utilizes the LLM. Also intelligently decides when 
+              to use external tools such as web search to provide up-to-date information.
+            </h5>
+            <h4>LlamaIndex, LangGraph, Gemini, FastAPI, Next.js, Tavily</h4>
+        </article>
+
+        <article className='projects__item'>
+            <div className='projects__item-cta'>
+              <FiFolder className='projects__icon'/>
+              <div className='projects__links'>
                 <a href='http://driverless.mit.edu/' target="_blank" rel="noopener noreferrer"><BsGlobe2/></a>
                 <a href='https://medium.com/@j0hn.l/betty-autonomous-indy-race-car-1002f88faafb' target="_blank" rel="noopener noreferrer"><RxOpenInNewWindow/></a>
               </div>
